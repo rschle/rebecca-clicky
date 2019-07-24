@@ -12,9 +12,25 @@ class App extends Component {
     clicked: []
   };
 
-  // clickCharacter = id => {
-  //   if
-  // }
+  clickCharacter = id => {
+
+    this.state.cards.sort(() => Math.random() - 0.5)
+
+    if (this.state.clicked.indexOf(id) === -1) {
+      let addScore = this.state.score + 1;
+      this.state.clicked.push(id)
+      this.setState({
+        clicked: this.state.clicked,
+        score: addScore
+      })
+    } else {
+      this.setState({
+        score: 0,
+        clicked: []
+      })
+      alert("You lose!")
+    }
+  }
 
   // shuffle = array => {
   //   var length = array.length;
@@ -28,17 +44,18 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header>Clicky Game</Header>
+        <Header score={this.state.score} /> 
         <div className="row">
-        {this.state.cards.map(card => (
-      
+          {this.state.cards.map(card => (
+
             <CharacterCard
+              clickCharacter={this.clickCharacter}
               id={card.id}
               key={card.id}
               name={card.name}
               image={card.image}
             />
-        ))}
+          ))}
         </div>
 
       </Wrapper>
