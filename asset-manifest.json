@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/rebecca-clicky/static/css/main.2cce8147.chunk.css",
-    "main.js": "/rebecca-clicky/static/js/main.c467e33a.chunk.js",
-    "main.js.map": "/rebecca-clicky/static/js/main.c467e33a.chunk.js.map",
+    "main.css": "/rebecca-clicky/static/css/main.f42acfda.chunk.css",
+    "main.js": "/rebecca-clicky/static/js/main.11d6ced7.chunk.js",
+    "main.js.map": "/rebecca-clicky/static/js/main.11d6ced7.chunk.js.map",
     "runtime~main.js": "/rebecca-clicky/static/js/runtime~main.6e813e66.js",
     "runtime~main.js.map": "/rebecca-clicky/static/js/runtime~main.6e813e66.js.map",
-    "static/js/2.b41502e9.chunk.js": "/rebecca-clicky/static/js/2.b41502e9.chunk.js",
-    "static/js/2.b41502e9.chunk.js.map": "/rebecca-clicky/static/js/2.b41502e9.chunk.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/rebecca-clicky/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/rebecca-clicky/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/rebecca-clicky/index.html",
-    "precache-manifest.5c69b9d09e16afafd9d2061b90e61fc7.js": "/rebecca-clicky/precache-manifest.5c69b9d09e16afafd9d2061b90e61fc7.js",
+    "precache-manifest.fa81e605c41249d9ef147a7d40df121d.js": "/rebecca-clicky/precache-manifest.fa81e605c41249d9ef147a7d40df121d.js",
     "service-worker.js": "/rebecca-clicky/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/rebecca-clicky/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/rebecca-clicky/static/media/logo.5d5d9eef.svg"
+    "static/css/main.f42acfda.chunk.css.map": "/rebecca-clicky/static/css/main.f42acfda.chunk.css.map"
   }
 }
