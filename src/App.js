@@ -12,23 +12,35 @@ class App extends Component {
     clicked: []
   };
 
-  clickCharacter = id =>{
-    console.log(this.card.id)
-  }
+  // clickCharacter = id => {
+  //   if
+  // }
+
+  // shuffle = array => {
+  //   var length = array.length;
+  //   var randomIndex;
+
+  //   if(array.length > 0) {
+
+  //   }
+  // }
 
   render() {
     return (
-      <Wrapper> 
+      <Wrapper>
         <Header>Clicky Game</Header>
+        <div className="row">
         {this.state.cards.map(card => (
-          <CharacterCard
-            id={card.id}
-            key={card.id}
-            name={card.name}
-            image={card.image}
+      
+            <CharacterCard
+              id={card.id}
+              key={card.id}
+              name={card.name}
+              image={card.image}
             />
         ))}
-        
+        </div>
+
       </Wrapper>
     )
   }
