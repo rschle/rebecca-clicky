@@ -1,0 +1,11 @@
+nav{
+    border: solid 4px blue;
+    font-family: 'Metal Mania', cursive;
+}
+p{
+    font-size: 25px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
