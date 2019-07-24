@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rebecca-clicky/precache-manifest.f36390e32274cbd72f8e327655f391ad.js"
+  "/rebecca-clicky/precache-manifest.4125693a1dc620943afaee1cca276db1.js"
 );
 
 self.addEventListener('message', (event) => {
