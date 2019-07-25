@@ -12,24 +12,67 @@ class App extends Component {
     clicked: []
   };
 
-  clickCharacter = id => {
-
+  clickCharacter = event => {
+    let targetId = event.target.id
+    console.log(targetId)
     this.state.cards.sort(() => Math.random() - 0.5)
 
-    if (this.state.clicked.indexOf(id) === -1) {
-      let addScore = this.state.score + 1;
-      this.state.clicked.push(id)
-      this.setState({
-        clicked: this.state.clicked,
-        score: addScore
-      })
-    } else {
+    this.setState({ cards });
+
+    // for(let i = 0; i < this.state.clicked.length; i++) {
+    //   if(targetId === this.state.clicked[i]){
+    //     this.setState({
+    //       score: 0,
+    //       clicked: []
+    //     })
+    //     alert("You lose!")
+    //     return;
+    //   } else {
+    //     this.state.clicked.push(targetId);
+    //     var newScore = this.state.score + 1;
+    //     this.setState({
+    //       score: newScore,
+    //       clicked: this.state.clicked
+    //     })
+    //   }
+
+    // }
+  for(let i = 0; i < this.state.clicked.length; i++) {
+    if(this.state.clicked[i].id === targetId) {
       this.setState({
         score: 0,
         clicked: []
       })
+      console.log(this.state.clicked)
       alert("You lose!")
+    } else{
+      let addScore = this.state.score + 1;
+      this.state.clicked.push(targetId)
+      this.setState({
+        clicked: this.state.clicked,
+        score: addScore
+      })
+      console.log(this.state.clicked)
     }
+  }
+    // if (this.state.clicked.includes(targetId) > 0) {
+    //   this.setState({
+    //     score: 0,
+    //     clicked: []
+    //   })
+    //   console.log(this.state.clicked)
+    //   alert("You lose!")
+
+    // } else {
+    //   let addScore = this.state.score + 1;
+    //   this.state.clicked.push(targetId)
+    //   this.setState({
+    //     clicked: this.state.clicked,
+    //     score: addScore
+    //   })
+    //   console.log(this.state.clicked)
+
+    // }
   }
 
   // shuffle = array => {
@@ -44,7 +87,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} /> 
+        <Header score={this.state.score} />
         <div className="row">
           {this.state.cards.map(card => (
 
