@@ -2,7 +2,7 @@ nav{
     border: solid 4px blue;
     font-family: 'Metal Mania', cursive;
 }
-p{
+.nav-item{
     font-size: 30px;
 }
 
@@ -16,3 +16,4 @@ p{
     color: red;
     font-size: 20px;
 }
+
