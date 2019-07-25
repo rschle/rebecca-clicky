@@ -16,6 +16,9 @@ class App extends Component {
   clickCharacter = card => {
     let targetId = card.id
     console.log(targetId)
+    this.setState({
+      message: ""
+    })
     this.state.cards.sort(() => Math.random() - 0.5)
 
     this.setState({ cards });
@@ -62,8 +65,9 @@ class App extends Component {
         clicked: []
       })
       console.log(this.state.clicked)
+      let loseMessage = "You lose! No S.S. Butterscotch or Eggo's for you!"
       this.setState({
-        message: "You lose! No S.S. Butterscotch or Eggo's for you!"
+        message: loseMessage
       })
       // alert("You lose!")
 
@@ -92,7 +96,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Header score={this.state.score} />
+        <Header score={this.state.score} message={this.state.message} />
         <div className="row">
           {this.state.cards.map(card => (
 
