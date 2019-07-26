@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rebecca-clicky/static/css/main.ae858c91.chunk.css",
+    "main.css": "/rebecca-clicky/static/css/main.a50ea7a5.chunk.css",
     "main.js": "/rebecca-clicky/static/js/main.096b731b.chunk.js",
     "main.js.map": "/rebecca-clicky/static/js/main.096b731b.chunk.js.map",
     "runtime~main.js": "/rebecca-clicky/static/js/runtime~main.6e813e66.js",
@@ -8,8 +8,8 @@
     "static/js/2.884c28c3.chunk.js": "/rebecca-clicky/static/js/2.884c28c3.chunk.js",
     "static/js/2.884c28c3.chunk.js.map": "/rebecca-clicky/static/js/2.884c28c3.chunk.js.map",
     "index.html": "/rebecca-clicky/index.html",
-    "precache-manifest.bebb5890fd29ced624ec398cc178f165.js": "/rebecca-clicky/precache-manifest.bebb5890fd29ced624ec398cc178f165.js",
+    "precache-manifest.90897a67df87f8267d1391d95005dce4.js": "/rebecca-clicky/precache-manifest.90897a67df87f8267d1391d95005dce4.js",
     "service-worker.js": "/rebecca-clicky/service-worker.js",
-    "static/css/main.ae858c91.chunk.css.map": "/rebecca-clicky/static/css/main.ae858c91.chunk.css.map"
+    "static/css/main.a50ea7a5.chunk.css.map": "/rebecca-clicky/static/css/main.a50ea7a5.chunk.css.map"
   }
 }
